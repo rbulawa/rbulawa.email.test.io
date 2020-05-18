@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <style>
-        @media only screen and (max-width: 480px){
+        html {
+            padding: 0px;
+            margin: 0px;
+        }
+        @media only screen and (max-width: 640){
             .container {
                 width: 100%;
             }
+            .one-app-img {
+                    width: 100%;
+                }
             .header-left {
                 width: 100%;
             }
@@ -42,15 +49,14 @@
                 padding-right: 100px;
                 padding-bottom: 40px;
             }
-            .dev-app {
-                width: 100%;
-                padding: 0;
+            .dev-app img{
+                width: 80%;
             }
             .watch-img {
-                width: 90%;
+                width: 80%;
             }
             .advance-image {
-                width: 80%;
+                width: 100%;
             }
             .advance-table .left-column {
                 width: 100%;
@@ -97,6 +103,115 @@
                 padding: 0px 5px;
             }
         }
+            @media only screen and (max-width: 479px){
+                .container {
+                    width: 100%;
+                }
+                .watch-img {
+                    width: 60%;
+                    padding: 0px;
+                }
+                .advance-image {
+                    width: 80%;
+                }
+                .one-app-img {
+                    width: 100%;
+                }
+                .dev-app {
+                    width: 100%;
+                }
+                .header-left {
+                    width: 100%;
+                }
+                .header-left p {
+                    width: 280px;
+                }
+                .header-right {
+                    width: 100%;
+                }
+                .logo-img {
+                    width: 10%;
+                }
+                .lets-you-title {
+                    margin-bottom: 0px;
+                }
+                .lets-you-row .left-column {
+                    width: 100%;
+                    padding: 20px 40px;
+                }
+                .lets-you-row .middle-column {
+                    width: 100%;
+                    padding: 20px 40px;
+                }
+                .lets-you-row .right-column {
+                    width: 100%;
+                    padding: 20px 40px;
+                }
+                .advance-table .left-column {
+                    width: 100%;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 0px;
+                }
+                .advance-table .right-column {
+                    width: 100%;
+                    padding: 0px 30px;
+                    padding-bottom: 30px;
+                }
+                .advance-left-text{
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                .advance-right-text{
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                .join-together {
+                    margin-bottom: 0px;
+                }
+                .join-together img {
+                    width: 90px;
+                    height: 90px;
+                }
+                .join-together .left-column{
+                    width: 100%;
+                    padding: 20px 20px;
+                }
+                .join-together .middle-column{
+                    width: 100%;
+                    padding: 20px 20px;
+                }
+                .join-together .right-column{
+                    width: 100%;
+                    padding: 20px 20px;
+                }
+                .join-together .left-column p, .middle-column p, .right-column p {
+                    margin: 0px;
+                }
+                .join-together .text{
+                    height: 55px;
+                }
+                .join-together .learn-more {
+                    padding-bottom: 30px;
+                    border-bottom: 1px solid #b1b1b1;
+                }
+                .details-table .left-column {
+                    width: 100%;
+                }
+                .details-table .right-column {
+                    width: 100%;
+                }
+                .interest-table {
+                    width: 100%;
+                }
+                .muriel {
+                    width: 250px;
+                    padding: 0px;
+                }
+                .social-icons img {
+                padding: 0px 5px;
+                }
+            }
     </style>
 
 </head>
@@ -143,7 +258,7 @@
                                             </table>
                                         </td>
                                     </tr>
-                                        <td align="center" style="padding-right: 15px;"><img style="padding-bottom: 81px; padding-top: 17px;" src="images/iwatch.png" alt="Smartwatch" class="watch-img"></td>
+                                        <td align="center" style="padding-right: 15px;"><img class="watch-img" style="padding-bottom: 0px; padding-top: 17px;" src="https://rbulawa.github.io/rbulawa.email.test.io/images/iwatch.png" alt="iWatch"></td>
                                 </table> 
                             </td>
                         </tr>
@@ -151,7 +266,7 @@
                          <!-- Start of Let's you Row -->
                         <tr>
                             <td class="lets-you-row" style="background: #fafafa; padding-bottom: 70px;">
-                                <h3 align="center" style="color: #3C3C3D; padding: 40px; font-weight: 100; font-size: 24px;" >Hero let's you...</h3>
+                                <h3 class="lets-you-title" align="center" style="color: #3C3C3D; padding: 40px; font-weight: 100; font-size: 24px;" >Hero let's you...</h3>
                                 <table class="left-column" width="33.33%" border="0" align="left" cellspacing="0" cellpadding="0">
                                     <tr>
                                         <td style="line-height: 1;">
@@ -179,7 +294,7 @@
                                         <td style="line-height: 1;">
                                             <table>
                                                 <tr>
-                                                    <td align="center"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/share_icon.png" alt="Bell Icon"></td>
+                                                    <td align="center"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/share_icon.png" alt="Share Icon"></td>
                                                     <td align="center" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; padding: 0 0 0 15px; color: #3C3C3D;">Share</td>
                                                 </tr>
                                             </table>
@@ -201,7 +316,7 @@
                                         <td style="line-height: 1;">
                                             <table>
                                                 <tr>
-                                                    <td align="center"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/wifi_icon.png" alt="Bell Icon"></td>
+                                                    <td align="center"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/wifi_icon.png" alt="WiFi Icon"></td>
                                                     <td align="center" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; padding: 0 0 0 15px; color: #3C3C3D;">Connect</td>
                                                 </tr>
                                             </table>
@@ -229,7 +344,7 @@
                                         <td width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
                                             <table class="advance-image">
                                                 <tr>
-                                                    <td><img class="dev-app" src="https://rbulawa.github.io/rbulawa.email.test.io/images/devapp.png" alt="Bell Icon"></td>
+                                                    <td><img class="dev-app" src="https://rbulawa.github.io/rbulawa.email.test.io/images/devapp.png" alt="Development Mobile Phone Picture"></td>
                                                 </tr>
                                             </table>
                                         </td>
@@ -240,8 +355,8 @@
                                             </td>
                                         </tr>
                                             <tr>
-                                                <td>
-                                                    <table class="left-column" width="50%" border="0" align="left" cellspacing="0" cellpadding="0" style=" padding-bottom: 30px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 15px; background: white;">
+                                                <td style="padding-bottom: 30px;">
+                                                    <table class="left-column" width="50%" border="0" align="left" cellspacing="0" cellpadding="0" style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 15px; background: white;">
                                                         <tr>
                                                             <td class="advance-left-text">
                                                                 <p align="center" style="color: #888888; line-height: 1.7; font-size: 14px; font-weight: 300; padding-left: 0px;">The Strong museum has collected more than 55,000 video games and related artifacts from the history of gaming.</p>
@@ -305,10 +420,10 @@
                                             <td>
                                                 <table class="left-column" width="33.33%" border="0" align="left" cellspacing="0" cellpadding="0" style="padding: 0 10px;">
                                                     <tr>
-                                                        <td align="center"><img height="133px" width="143px" src="https://rbulawa.github.io/rbulawa.email.test.io/images/sync.png" alt=""></td>
+                                                        <td align="center"><img height="133px" width="143px" src="https://rbulawa.github.io/rbulawa.email.test.io/images/sync.png" alt="synchronization Icon"></td>
                                                     </tr>
                                                         <tr>
-                                                            <td align="center" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; padding: 15px; color: #3C3C3D;">Sync</td>
+                                                            <td class="title" align="center" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; padding: 15px; color: #3C3C3D;">Sync</td>
                                                         </tr>
                                                         <tr>
                                                             <td class="text" align="center">
@@ -316,17 +431,17 @@
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td align="center">
+                                                            <td class="learn-more" align="center">
                                                                 <a href="#" style="text-decoration: none; color: #2296ee;">Learn more</a>
                                                             </td>
                                                         </tr>
                                                 </table>
                                                 <table class="middle-column" width="33.33%" border="0" align="left" cellspacing="0" cellpadding="0" style="padding: 0 10px;"> 
                                                     <tr>
-                                                        <td align="center"><img height="133px" width="143px" src="https://rbulawa.github.io/rbulawa.email.test.io/images/share.png" alt=""></td>
+                                                        <td align="center"><img height="133px" width="143px" src="https://rbulawa.github.io/rbulawa.email.test.io/images/share.png" alt="Sharing icon"></td>
                                                     </tr>
                                                         <tr>
-                                                            <td align="center" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; padding: 15px; color: #3C3C3D;">Share</td>
+                                                            <td class="title" align="center" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; padding: 15px; color: #3C3C3D;">Share</td>
                                                         </tr>
                                                         <tr>
                                                             <td class="text" align="center"> 
@@ -334,17 +449,17 @@
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td align="center">
+                                                            <td class="learn-more" align="center">
                                                                 <a href="#" style="text-decoration: none; color: #2296ee;">Learn more</a>
                                                             </td>
                                                         </tr>
                                                 </table>
                                                 <table class="right-column" width="33.33%" border="0" align="left" cellspacing="0" cellpadding="0" style="padding: 0 10px;">
                                                     <tr>
-                                                        <td align="center"><img height="133px" width="143px" src="https://rbulawa.github.io/rbulawa.email.test.io/images/stats.png" alt=""></td>
+                                                        <td align="center"><img height="133px" width="143px" src="https://rbulawa.github.io/rbulawa.email.test.io/images/stats.png" alt="Statistics Icon"></td>
                                                     </tr>
                                                         <tr>
-                                                            <td align="center" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; padding: 15px; color: #3C3C3D;">Stats</td>
+                                                            <td class="title" align="center" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; padding: 15px; color: #3C3C3D;">Stats</td>
                                                         </tr>
                                                         <tr>
                                                             <td class="text" align="center">
@@ -352,7 +467,7 @@
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td align="center">
+                                                            <td class="learn-more" align="center">
                                                                 <a href="#" style="text-decoration: none; color: #2296ee;">Learn more</a>
                                                             </td>
                                                         </tr>
@@ -378,7 +493,7 @@
                                                                 <td style="line-height: 1;">
                                                                     <table align="left"> 
                                                                         <tr>
-                                                                            <td align="left" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/phone_icon.png" alt="Bell Icon"></td>
+                                                                            <td align="left" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/phone_icon.png" alt="Phone Icon"></td>
                                                                             <td align="left" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; color: #3C3C3D;">Responsive Layout</td>
                                                                         </tr>
                                                                     </table>
@@ -390,12 +505,12 @@
                                                                 </td>
                                                             </tr>
                                                         </table>
-                                                        <table class="right-column-retina" width="50%" border="0" align="left" cellspacing="0" cellpadding="0" style="padding: 10px 10px;">
+                                                        <table class="right-column" width="50%" border="0" align="left" cellspacing="0" cellpadding="0" style="padding: 10px 10px;">
                                                             <tr>
                                                                 <td style="line-height: 1;">
                                                                     <table class="details-title" align="left"> 
                                                                         <tr>
-                                                                            <td align="left" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/phone_icon-48.png" alt="Bell Icon"></td>
+                                                                            <td align="left" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/phone_icon-48.png" alt="Retina Icon"></td>
                                                                             <td align="left" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; color: #3C3C3D;">Retina Ready</td>
                                                                         </tr>
                                                                     </table>
@@ -421,7 +536,7 @@
                                                                 <td style="line-height: 1;">
                                                                     <table align="left"> 
                                                                         <tr>
-                                                                            <td align="left" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/check_icon.png" alt="Bell Icon"></td>
+                                                                            <td align="left" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/check_icon.png" alt="Check Icon"></td>
                                                                             <td align="left" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; color: #3C3C3D;">Various Skins</td>
                                                                         </tr>
                                                                     </table>
@@ -438,7 +553,7 @@
                                                                 <td style="line-height: 1;">
                                                                     <table align="left"> 
                                                                         <tr>
-                                                                            <td align="left" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/settings_icon.png" alt="Bell Icon"></td>
+                                                                            <td align="left" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/settings_icon.png" alt="Settings Icon"></td>
                                                                             <td align="left" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; color: #3C3C3D;">Great performance</td>
                                                                         </tr>
                                                                     </table>
@@ -466,7 +581,7 @@
                                                                 <td style="line-height: 1;">
                                                                     <table align="left"> 
                                                                         <tr>
-                                                                            <td align="center" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/menu_icon.png" alt="Bell Icon"></td>
+                                                                            <td align="center" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/menu_icon.png" alt="Burger Menu Icon"></td>
                                                                             <td align="left" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; color: #3C3C3D;">User friendly menus</td>
                                                                         </tr>
                                                                     </table>
@@ -483,7 +598,7 @@
                                                                 <td style="line-height: 1;">
                                                                     <table align="left"> 
                                                                         <tr>
-                                                                            <td align="left" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/share_icon.png" alt="Bell Icon"></td>
+                                                                            <td align="left" style="padding-right: 10px;"><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/share_icon.png" alt="Sharing Icon"></td>
                                                                             <td align="left" style="text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 2px; color: #3C3C3D;">Social share</td>
                                                                         </tr>
                                                                     </table>
@@ -511,7 +626,7 @@
                             <td class="interest-table" width="100%" border="0" align="center" cellspacing="0" cellpadding="0" style=" font-family: Helvetica Neue, Helvetica, Arial, sans-serif; padding: 75px 0; background: rgb(101,255,253);
                             background: linear-gradient(90deg, rgba(101,255,253,1) 0%, rgba(101,255,253,1) 0%, rgba(34,150,238,1) 86%);">
                                 <h3 align="center" style=" margin: 0; color: #ffffff; font-weight: 100; font-size: 36px;">Interested in our App?</h3>
-                                <p class="muriel" align="center" style="font-size: 16px; line-height: 1.5; margin: 40px 100px; color: #ffffff;">Muriel Browser's administration says move is unrelated to charges that encryption caused failures in Metro</p>
+                                <p class="muriel" align="center" style="font-size: 16px; line-height: 1.5; padding: 20px 50px; color: #ffffff;">Muriel Browser's administration says move is unrelated to charges that encryption caused failures in Metro</p>
                                 <a align="center" href="#" class="ghost-btn" style="border: 2px solid white; border-radius: 3px; text-decoration: none; color: white; padding: 8px 10px; text-transform: uppercase; font-weight: 600;">Request a quote</a>
                             </td>
                         </tr>
@@ -529,12 +644,12 @@
                                         <td>
                                             <table class="social-icons" width="40%" border="0" align="center" cellspacing="0" cellpadding="0" style="padding: 10px 0;">
                                                 <tr style="margin: 0;">
-                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/twitter_icon.png" alt=""></td>
-                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/facebook_icon.png" alt=""></td>
-                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/google_icon.png" alt=""></td>
-                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/pinterest_icon.png" alt=""></td>
-                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/linkedin_icon.png" alt=""></td>
-                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/youtube_icon.png" alt=""></td>
+                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/twitter_icon.png" alt="Twitter link icon"></td>
+                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/facebook_icon.png" alt="Facebook link icon"></td>
+                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/google_icon.png" alt="Google plus link icon"></td>
+                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/pinterest_icon.png" alt="Pinterest link icon"></td>
+                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/linkedin_icon.png" alt="LinkIn link icon"></td>
+                                                    <td><img src="https://rbulawa.github.io/rbulawa.email.test.io/images/youtube_icon.png" alt="YouTube link icon"></td>
                                                 </tr>
                                             </table>
                                         </td>
